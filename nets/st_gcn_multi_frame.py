@@ -2,10 +2,10 @@ import torch
 import torch.nn as nn
 
 
-from nets.utils.tgcn import ConvTemporalGraphical
-from nets.utils.graph_frames import Graph
-from nets.utils.graph_frames_withpool_2 import Graph_pool
-from nets.non_local_embedded_gaussian import NONLocalBlock2D
+from signbert.model.thirdparty.spat_temp_st_gcn.nets.utils.tgcn import ConvTemporalGraphical
+from signbert.model.thirdparty.spat_temp_st_gcn.nets.utils.graph_frames import Graph
+from signbert.model.thirdparty.spat_temp_st_gcn.nets.utils.graph_frames_withpool_2 import Graph_pool
+from signbert.model.thirdparty.spat_temp_st_gcn.nets.non_local_embedded_gaussian import NONLocalBlock2D
 
 
 inter_channels = [128, 128, 256]
